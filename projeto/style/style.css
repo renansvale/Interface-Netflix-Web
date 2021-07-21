@@ -11,7 +11,7 @@
 /*elementos base*/
 body{
   background:var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 header .container{
@@ -61,6 +61,15 @@ header nav a:hover{
   font-size: 35px;
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.div-video{
+  height: 600px;
+  width: 100%;
+}
 
 .botao{
   background-color: rgba(0, 0, 0, .50);
@@ -70,7 +79,7 @@ header nav a:hover{
   margin-right: 15px;
   font-size: 12px;
   cursor: pointer;
-  transition: .5s ease all;
+  transition: .4s ease all;
 }
 
 .botao:hover{
@@ -79,4 +88,14 @@ header nav a:hover{
 }
 .botao i{
   margin-right: 8px;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes{
+  margin-top: 6px;
 }
